@@ -603,6 +603,9 @@ i {
     justify-content: flex-end;
     padding-right: 50px;
 }
+.cen{
+    justify-content: space-around;
+}
 
 
 @media (max-width: 1195px) {
