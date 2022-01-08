@@ -64,6 +64,19 @@
     display: none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+:target{
+    scroll-margin-top: 50px;
+}
+.active{
+    font-weight: bold;
+}
+a{
+    color: white;
+}
+
 body {
     font-family: Arial, sans-serif;
 }
@@ -86,6 +99,24 @@ nav {
     animation: com 2s forwards ease;
 }
 
+.name a {
+    transition: all 0.1s;
+    transform: scale(1);
+    display: inline-block;
+}
+
+.name a:visited {
+    color: white;
+}
+
+.name a:hover {
+    color: white;
+}
+
+.name a:active {
+    transform: scale(1.1);
+}
+
 .nav {
     position: right;
     float: left;
@@ -104,7 +135,7 @@ nav {
     animation: menu 0.4s forwards ease;
 }
 
-.nav li a {
+a {
     text-decoration: none;
 }
 
@@ -463,6 +494,9 @@ i {
 .st {
     font-size: 50px;
     color: #e88604;
+}
+.benefits__number{
+    opacity: 0;
 }
 
 .statistic p {
