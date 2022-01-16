@@ -22,7 +22,7 @@
     <nav>
         <div class="container">
             <div class="row">
-                <div class="col-xxl-3 col-lg-4 col-md-5 col-sm-6">
+                <div class="col-7 col-xxl-3 col-lg-4 col-md-5 col-sm-6">
                     <div class="name">
                         <a href="#home">Дима Костромской</a>
                     </div>
@@ -39,7 +39,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-6 d-flex d-lg-none flex-column justify-content-center align-items-end">
+                <div class="col-3 d-flex d-lg-none flex-column justify-content-center align-items-end">
                     <div class="dropdown">
                         <a class="btn btn-outline-secondary dropdown-toggle white-btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                             Меню
@@ -404,6 +404,7 @@
                 </div>
             </div>
         </div>
+    <form action="php/mail.php" method="post">
         <div class="container">
             <div class="row">
                 <div class="col-4">
@@ -412,11 +413,11 @@
                 </div>
                 <div class="col-4">
                     <i class="icon-phone"></i>
-                    <p>Телефон</p>
+                    <a href="tel:+79999999999"><p>+7(999)999-99-99</p></a>
                 </div>
                 <div class="col-4">
                     <i class="icon-mail"></i>
-                    <p>Почта</p>
+                    <a href="mailto:example@mail.ru"><p>example@mail.ru</p></a>
                 </div>
             </div>
         </div>
@@ -430,15 +431,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 inp">
-                    <input class="namee" type="text" placeholder="Имя">
-                    <input class="em" type="text" placeholder="E-mail">
+                    <input id="inputName" name="user_name" class="namee" type="text" placeholder="Имя">
+                    <input id="inputTel" name="user_phone" class="em" type="phone" placeholder="+7(___) ___-____">
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <textarea class="mes" name="text" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+                    <textarea id="inputText" class="mes" name="text" cols="30" rows="10" placeholder="Сообщение"></textarea>
                 </div>
             </div>
         </div>
@@ -449,6 +450,7 @@
                 </div>
             </div>
         </div>
+    </form>
         <div class="container">
             <div class="row">
                 <div class="col-4 d-xl-flex d-none right">
@@ -495,10 +497,12 @@
     </script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/jquery.spincrement.min.js"></script>
     <script src="js/test.js"></script>
     <script src="js/jquery.js"></script>
+    <script src="js/php.js"></script>
     <script src="js/popup.js"></script>
 </body>
 
