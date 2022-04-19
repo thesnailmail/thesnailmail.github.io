@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/icon.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>MARAZAVR</title>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+    (function(m, e, t, r, i, k, a) {
+        m[i] = m[i] || function() {
+            (m[i].a = m[i].a || []).push(arguments) };
+        m[i].l = 1 * new Date();
+        k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(88442247, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        ecommerce: "dataLayer"
+    });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/88442247" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 mar">
+                    <p>MARAZAVR</p>
+                </div>
+                <div class="col-2">
+                    <a href="#ab">
+                        <p>ОБО МНЕ</p>
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="#sk">
+                        <p>УМЕНИЯ</p>
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="#con">
+                        <p>КОНТАКТЫ</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="container">
+            <div class="row about" id="ab">
+                <div class="col-1">
+                </div>
+                <div class="col-8">
+                    <h3>Приветствую! Меня зовут Мария</h3>
+                    <p>
+                        <br> Я начинающий специалист веб-разработки
+                        <br> Занимаюсь созданием уникальных и индвидуальных сайтов
+                        <br> с различными возможностями
+                    </p>
+                </div>
+                <div class="col-3">
+                    <img class="photo" src="img/dsf.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row  skills" id="sk">
+                <div class="col-1">
+                </div>
+                <div class="col-10">
+                    <h3>Умения</h3>
+                    <ul class="list">
+                        <li>Написание сайтов вне зависимотси от размера: лендинги и многостраничники, новостные порталы и форумы</li>
+                        <li>Совместный подбор дизайна, если нет готовых макетов</li>
+                        <li>Адаптация для пользования на различных устройствах по желанию:</li>
+                    </ul>
+                    <img src="img/cons.png" alt="">
+                </div>
+                <div class="col-1">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row contacts" id="con">
+                <div class="col-1">
+                </div>
+                <div class="col-7">
+                    <h3>Контакты</h3>
+                    <p>
+                        Телефон: <a href="tel:+79965608077">+7(996)560-80-77</a>
+                    </p>
+                    <p>
+                        Почта: <a href="mailto:marazavr.m@yandex.ru">marazavr.m@yandex.ru</a>
+                    </p>
+                </div>
+                <div class="col-2">
+                    <button type="button" class="btn btn-primary" id="send" data-bs-toggle="modal" data-bs-target="#exampleModal">Оставить заявку</button>
+                    <a href="#" download="">
+                        <button class="down">Сертификат</button>
+                    </a>
+                </div>
+                <div class="col-2">
+                </div>
+            </div>
+        </div>
+    </section>
+    <form action="">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Обратная связь</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Ваше имя" aria-label="Ваше имя" aria-describedby="basic-addon1" required>
+                        </div>
+                        <div class="input-group mb-3"><input id="inputTel" name="user_phone" class="form-control em" required type="number" placeholder="+7(___) ___-____"></div>
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Ваша почта" aria-label="Ваша почта" required id="email">
+                        </div>
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                            <label for="floatingTextarea">Дополнительная информация</label>
+                        </div>
+                        <div class="ss"><button type="submit" id="ss" class="btn btn-primary" formnovalidate>Отправить</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 rights">
+                    <p>
+                        © 2022 Все права защищены, MARAZAVR
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/jquery.js"></script>
+</body>
+
+</html>
