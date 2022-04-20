@@ -1,0 +1,158 @@
+html{
+	scroll-behavior: smooth;
+}
+body {
+    background-color: black;
+    font-family: "Montserrat";
+}
+nav{
+    background-color: rgb(255, 255, 255, 0.5);
+    line-height: 80px;
+    font-size: 25px;
+    color: white;
+    height: 80px;
+}
+.mar{
+    color: #FF7C00;
+}
+.container a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.1s;
+    transform: scale(1);
+}
+.container a:hover{
+    color: #FF7C00;
+}
+.about{
+    background-color: rgb(255, 255, 255, 0.5);
+    height: 300px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.about p{
+    font-size: 16px;
+    margin-left: 25px;
+}
+.photo{
+    display: flex;
+    align-items: center;
+    border: 5px solid #FF7C00;
+    border-radius: 50%;
+}
+.skills{
+    background-color: rgb(255, 255, 255, 0.5);
+    height: 650px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.skills img{
+    margin-left: -25px;
+}
+.list{
+    line-height: 60px;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.contacts{
+    background-color: rgb(255, 255, 255, 0.5);
+    height: 250px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.contacts p{
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.rights{
+    text-align: center;
+    color: white;
+}
+button#send{
+    float: left;
+    width: 300px;
+    height: 50px;
+    border: 2px solid black;
+    background: black;
+    border-radius: 7px;
+    color: #FF7C00;
+    font-size: 18px;
+}
+.down{
+    margin-top: 50px;
+    float: left;
+    width: 300px;
+    height: 50px;
+    border: 2px solid black;
+    background: black;
+    border-radius: 7px;
+    font-size: 18px;
+    color: #FF7C00;
+
+}
+button{
+    transform: scale(1);
+    transition: all 0.1s;
+}
+button:hover{
+    transform: scale(1)
+}
+button:active{
+    transform: scale(1.1);
+}
+button#send{
+    transform: scale(1);
+    transition: all 0.1s;
+}
+button#send:hover{
+    transform: scale(1)
+}
+button#send:active{
+    transform: scale(1.1);
+}
+button#send:focus{
+    box-shadow: none;
+}
+.modal-header,.modal-body,.modal-footer{
+    background-color: black;
+    color: #FF7C00;
+}
+.input-group p{
+    float: left;
+}
+label{
+    color: black;
+}
+input:focus{
+    box-shadow: none;
+}
+button#ss{
+    border: 2px solid black;
+    background: black;
+    border-radius: 7px;
+    color: #FF7C00;
+    font-size: 18px;
+    margin-top: 15px;
+}
+button#ss{
+    transform: scale(1);
+    transition: all 0.1s;
+}
+button#ss:hover{
+    transform: scale(1)
+}
+button#ss:active{
+    transform: scale(1.1);
+}
+button#ss:focus{
+    box-shadow: none;
+}
