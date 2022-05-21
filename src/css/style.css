@@ -1,0 +1,286 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    font-family: "Montserrat";
+}
+
+nav {
+    background-color: #808080;
+    line-height: 80px;
+    font-size: 25px;
+    color: white;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 100px;
+    z-index: 15;
+}
+
+.empty {
+    height: 150px;
+}
+
+.mar {
+    color: #FF7C00;
+    text-align: center;
+    font-size: 35px;
+}
+
+.a {
+    width: 150px;
+}
+
+.b {
+    width: 135px;
+}
+
+.c {
+    width: 185px;
+}
+
+.d {
+    width: 208px;
+}
+
+.e {
+    width: 200px;
+}
+
+.container a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.1s;
+    transform: scale(1);
+}
+
+.container a:hover {
+    color: #FF7C00;
+}
+
+.about {
+    background-color: rgb(255, 255, 255, 0.5);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.about p {
+    font-size: 16px;
+    margin-left: 25px;
+}
+
+.photo {
+    display: flex;
+    align-items: center;
+    border: 5px solid #FF7C00;
+    border-radius: 50%;
+}
+
+.skills {
+    background-color: rgb(255, 255, 255, 0.5);
+    height: 650px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.skills img {
+    margin-left: -25px;
+}
+
+.list {
+    line-height: 60px;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.ph {
+    background-color: rgb(255, 255, 255, 0.5);
+    height: 1100px;
+    margin-top: 100px;
+    padding-top: 80px;
+    color: white;
+}
+
+.hh {
+    margin-bottom: -75px;
+}
+
+.calc {
+    margin-top: 100px;
+    padding-top: 70px;
+    height: 800px;
+    width: 101.65%;
+    background-color: rgb(255, 255, 255, 0.5);
+    color: white;
+}
+
+.contacts {
+    background-color: rgb(255, 255, 255, 0.5);
+    height: 250px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.contacts p {
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.rights {
+    text-align: center;
+    color: white;
+}
+
+button#send {
+    float: left;
+    width: 300px;
+    height: 50px;
+    border: 2px solid black;
+    background: black;
+    border-radius: 7px;
+    color: #FF7C00;
+    font-size: 18px;
+}
+
+.down {
+    margin-top: 50px;
+    float: left;
+    width: 300px;
+    height: 50px;
+    border: 2px solid black;
+    background: black;
+    border-radius: 7px;
+    font-size: 18px;
+    color: #FF7C00;
+
+}
+
+button {
+    transform: scale(1);
+    transition: all 0.1s;
+}
+
+button:hover {
+    transform: scale(1)
+}
+
+button:active {
+    transform: scale(1.1);
+}
+
+.input-group p {
+    float: left;
+}
+
+label {
+    color: black;
+}
+
+@media (max-width: 1399px) {
+    .mar {
+        font-size: 25px;
+    }
+
+    .ph {
+        height: 900px;
+    }
+
+    .calc {
+        height: 750px;
+    }
+    .skills{
+        height: 700px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .mar {
+        font-size: 35px;
+    }
+
+    .ph {
+        height: 800px;
+    }
+    .skills{
+        height: 650px;
+    }
+
+}
+
+.menuu {
+    width: 200px;
+    border: 2px solid black;
+    background: black;
+    border-radius: 7px;
+    color: #FF7C00;
+}
+
+.dropdown-menu-dark {
+    width: 200px;
+    background-color: black;
+    z-index: 3;
+}
+
+button {
+    z-index: 5;
+}
+
+@media (max-width: 991px) {
+    .ph {
+        height: 700px;
+    }
+}
+
+@media (max-width: 768px) {
+    .down {
+        float: none;
+        margin-left: 110px;
+    }
+
+    .contacts {
+        height: 350px;
+        padding-top: 50px;
+    }
+
+    .ph {
+        height: 500px;
+    }
+
+    .list {
+        line-height: 50px;
+    }
+
+    .hh {
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .elll {
+        margin-bottom: -50px;
+    }
+
+    .about p {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+:target{
+    scroll-margin-top: 180px;
+}
