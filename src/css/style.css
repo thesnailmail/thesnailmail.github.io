@@ -1,10 +1,11 @@
 html {
     scroll-behavior: smooth;
 }
-
+*{
+    font-family: "Montserrat";
+}
 body {
     background-color: black;
-    font-family: "Montserrat";
 }
 
 nav {
@@ -238,6 +239,10 @@ button {
 @media (max-width: 991px) {
     .ph {
         height: 700px;
+    }
+    .contacts {
+        height: 250px;
+        padding-top: 30px;
     }
 }
 
